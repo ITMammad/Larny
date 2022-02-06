@@ -1,0 +1,78 @@
+@font-face {
+  font-family: IRANSans;
+  src: url("../font/IRANSans.ttf");
+}
+@font-face {
+  font-family: IRANYekan;
+  src: url("../font/IRANYekan.ttf");
+}
+@font-face {
+  font-family: IRANYekanBold;
+  src: url("../font/IRANYekan_Bold.ttf");
+}
+*{
+  font-family: IRANYekan;
+}
+.menu{
+  list-style-type: none;
+}
+#open-menu{
+  display: none;
+  padding: 5px;
+  font-size: 150%;
+}
+.login-form{
+  padding: 20px;
+}
+.splash{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  background: rgba(255 , 255 , 255 , 0.85);
+  width: 100%;
+  height: 100%;
+  z-index: 1111111;
+}
+.splash img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+}
+.Box{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  width: max-content;
+  z-index: 1;
+}
+.drk-bg{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgba(0 , 0 , 0 , 0.5);
+}
+.PDFBox-container {
+  z-index: 111;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.PDFBox-container object {
+  width: 85vw;
+  height: 85vh;
+  border-radius: 15px;
+}
+.PDFBox-header {
+  position: absolute;
+  top: calc(10% - 37.5px);
+  z-index: 1111;
+  right: calc(15% / 2);
+}
+.PDFBox-header button {
+  font-size: 25px;
+}
