@@ -1,7 +1,5 @@
 <?php
-if (isset($_GET['navigate']) AND $_GET['navigate'] == "true") {
-
-} else {
+if (isset($_GET['navigate']) AND $_GET['navigate'] == "true") {} else {
     http_response_code(404);
 }
 ?>
@@ -11,3 +9,6 @@ if (isset($_GET['navigate']) AND $_GET['navigate'] == "true") {
         <h1 style="font-size: 350%;">Page Not Found!</h1>
     </div>
 </div>
+<script>
+    setTimeout(() => {} , 2500);
+</script>

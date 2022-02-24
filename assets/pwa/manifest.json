@@ -1,6 +1,8 @@
 {
-  "short_name": "Larany app",
-  "name": "A new Larany application powered by Larany framework",
+  "short_name": "Larny app",
+  "name": "Larny app",
+  "description": "A new Larny application powered by Larny framework",
+  "id": "",
   "icons": [
     {
       "src": "./../img/logo.png",
@@ -8,8 +10,9 @@
       "sizes": "2048x2048"
     }
   ],
-  "start_url": ".",
+  "start_url": "./../../",
+  "scope": ".",
   "display": "standalone",
-  "theme_color": "#FFFFFF",
-  "background_color": "#000000"
+  "theme_color": "#ff7b7b",
+  "background_color": "#702431"
 }

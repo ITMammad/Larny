@@ -1,10 +1,8 @@
 <?php
     /**
      * Class ROUTE
-     * author : mahdi khanzadi
-     * year: 2017--1397 winter
-     * my blog: http://tarhche.com
-     * email: khanzadimahdi@gmail.com
+     * author:AMYSoft Team...
+     * year: 2022--1400 winter
     **/
 	class ROUTE{
 		public static $methods=array();
