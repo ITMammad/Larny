@@ -1,5 +1,5 @@
 // Files to cache
-const cacheName = 'AriyaAmooz';
+const cacheName = 'Larny';
 const appShellFiles = [
   '/'
 ];
